@@ -43,7 +43,7 @@ Open URL AutoHero
 
 User is on Advanced Search Page
     Sleep   5s
-    Click Element                       //*[contains(., "Applicant")]
+    Click Element                       //"[starts-with(@text,"applicant-creation")]
     Wait Until Element Is Visible       //span[contains(text(),'Erstzulassung ab')]
 
 User Select Filter for First registration
