@@ -10,7 +10,7 @@ jobs:
 
 - job: 'Test'
   pool:
-    vmImage: 'vs2017-win2016'
+    vmImage: 'ubuntu-18.04'
   strategy:
     matrix:
       Python37:
